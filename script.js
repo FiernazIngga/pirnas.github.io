@@ -12,3 +12,11 @@ hamburger.addEventListener("click", () => {
     gerak ? hbawah.style.transform = "rotate(-35deg)" : hbawah.style.transform = "rotate(0deg)";
     gerak ? menuDalam.style.height = "10em" : menuDalam.style.height = "0px";
 })
+
+document.addEventListener("DOMContentLoaded", function () {
+    let marquee = document.querySelector(".skilba");
+    let clone = marquee.cloneNode(true); // Duplikasi elemen marquee
+    clone.classList.add("cloned"); // Tambahkan class agar bisa diatur dengan CSS
+    marquee.parentElement.appendChild(clone); // Tambahkan duplikat setelahnya
+});
+
