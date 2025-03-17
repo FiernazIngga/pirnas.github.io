@@ -18,8 +18,13 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color: #fffffe;
+}
+
+#isi {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
 }
 
 #navigation {
@@ -585,144 +590,146 @@ body {
     </style>
 </head>
 <body>
-    <section id="navigation">
-        <div class="container-nav">
-            <div class="logo-nav">
-                <h1>Fiernaz</h1>
-            </div>
-            <div class="menu-nav">
-                <div class="hamburger-nav">
-                    <div class="hatas"></div>
-                    <div class="htengah"></div>
-                    <div class="hbawah"></div>
+    <section id="isi">
+        <section id="navigation">
+            <div class="container-nav">
+                <div class="logo-nav">
+                    <h1>Fiernaz</h1>
                 </div>
-                <div class="menuDalam-nav">
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skill">Skill</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+                <div class="menu-nav">
+                    <div class="hamburger-nav">
+                        <div class="hatas"></div>
+                        <div class="htengah"></div>
+                        <div class="hbawah"></div>
+                    </div>
+                    <div class="menuDalam-nav">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skill">Skill</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- <section class="preloader">
-        <h1 class="iniPreloaderh1">Selamat Datang</h1>
-    </section> -->
+        </section>
     
-    <section id="home">
-        <div class="home-isi">
-            <div class="homeIsiHiasan">
-                <div class="hiasanHome" data-aos="fade-up" data-aos-duration="2000"></div>
-                <h1 class="nama" data-aos="fade-down" data-aos-duration="2000">Hi, I'm Fiernaz and I'm a</h1>
-                <div class="isi">
-                    <h1 class="programmer" data-aos="fade-up" data-aos-duration="2000"><span class="hiasanHome2">Network</span> Engineer <br> And <span class="program">Programmer</span></h1>
-                </div>
-            </div>
-            <a href="#about" class="scrollBawah">
-                <div class="scroll"></div>
-                <div class="scroll scroll2"></div>
-            </a>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="gambar"></div>
-        <div class="isiAboutAtas">
-            <h1 class="about" data-aos="fade-right" data-aos-duration="2000">About</h1>
-        <div class="baris"></div>
-        <p class="isiAbout" data-aos="fade-left" data-aos-duration="2000">Hi, I'm Finz—a passionate programmer and network engineer. Currently, I'm a second-semester Informatics student at UPN Veteran Yogyakarta. I have experience in both front-end and back-end web development, constantly striving to expand my skills. Proudly hailing from Indonesia, I am eager to create and innovate in the tech world.</p>
-        </div>
-    </section>
-
-    <section id="skill">
-        <div class="gambarSkill">
-            <div class="gambar1">
-                <div class="mtcna" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="iniuntukumurm/img/serti_gambar/mtcna.png" alt="">
-                </div>
-                <div class="tulisanmtcna" data-aos="fade-left" data-aos-duration="2000">
-                    <h1>MikroTik Certified Network Associate</h1>
-                    <p>Sertifikasi yang diberikan oleh MikroTik, perusahaan yang dikenal dengan perangkat jaringan mereka, bertujuan untuk memastikan bahwa seseorang memiliki pemahaman dasar dan keterampilan dalam mengelola dan mengkonfigurasi jaringan menggunakan perangkat MikroTik.</p>
-                </div>
-            </div>
-            <div class="garisskil"></div>
-            <div class="gambar2">
-                <div class="tulisanmtcre" data-aos="fade-right" data-aos-duration="2000">
-                    <h1>MikroTik Certified Routing Engineer</h1>
-                    <p>Sertifikasi resmi dari MikroTik yang berfokus pada konfigurasi dan manajemen routing, terutama static routing, OSPF, VPN, dan load balancing.</p>
-                </div>
-                <div class="mtcre" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="iniuntukumurm/img/serti_gambar/mtcre.png" alt="">
-                </div>
-            </div>
-            <div class="garisskil"></div>
-            <div class="gambar3">
-                <div class="ojm" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="iniuntukumurm/img/serti_gambar/ojm.jpg" alt="">
-                </div>
-                <div class="tulisanojm" data-aos="fade-left" data-aos-duration="2000">
-                    <h1>Olimpiade Jaringan MikroTik</h1>
-                    <p>Olimpiade Jaringan Mikrotik adalah lomba tingkat nasional yang diselenggarakan oleh PT Citraweb Solusi Teknologi. Lomba ini mengundang siswa SMK dari jurusan Teknik Komputer dan Jaringan (TKJ) serta Sistem Informatika Jaringan dan Aplikasi (SIJA) untuk mengikuti berbagai tahap seleksi yang menguji pengetahuan dan keterampilan mereka di dunia jaringan.</p>
-                </div>
-            </div>
-            <div class="garisskil"></div>
-            <div class="gambar4">
-                <div class="tulisanlks" data-aos="fade-right" data-aos-duration="2000">
-                    <h1>Lomba Kompetensi Siswa</h1>
-                    <p>
-                        Lomba Kompetensi Siswa (LKS) Kelompok Teknologi Daerah Istimewa Yogyakarta (DIY) pada bidang IT Network Systems Administration tahun 2023 adalah sebuah kompetisi yang menguji keahlian siswa SMK dalam teknologi sistem administrasi server dan jaringan. Tujuan lomba ini adalah untuk mempromosikan potensi siswa SMK kepada dunia usaha/industri sebagai pengguna tamatan/lulusan.
-                    </p>
-                </div>
-                <div class="lks" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="iniuntukumurm/img/serti_gambar/lks.png" alt="">
-                </div>
-            </div>
-            <div class="garisskil"></div>
-            <div class="gambar5">
-                <div class="pkl" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="iniuntukumurm/img/serti_gambar/pkl.png" alt="">
-                </div>
-                <div class="tulisanpkl" data-aos="fade-left" data-aos-duration="2000">
-                    <h1>Praktek Kerja Lapangan</h1>
-                    <p>
-                        PT Gmedia adalah perusahaan penyedia layanan internet di Yogyakarta. Mereka menawarkan berbagai layanan teknologi informasi seperti akses internet, cloud computing, artificial intelligence, internet of things (IoT), software, dan aplikasi. Gmedia juga menyediakan layanan konsultasi IT dan solusi untuk kebutuhan bisnis.
-                    </p><br>
-                    <p>
-                        Gmedia menerima siswa Sekolah Menengah Kejuruan (SMK) untuk Praktik Kerja Lapangan (PKL). Program PKL ini berlangsung selama tiga bulan dan mencakup workshop, pembelajaran berbasis proyek, dan pengalaman lapangan, dengan tujuan memperdalam pengetahuan dan memberikan pengalaman praktis di dunia jaringan dan teknologi informasi.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="skilBahasa">
-            <ul class="skilba">
-                <li><img src="iniuntukumurm/img/imgBahasa/11.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/22.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/33.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/44.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/55.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/66.png" alt=""></li>
-                <li><img src="iniuntukumurm/img/imgBahasa/77.png" alt=""></li>
-            </ul>
-        </div>
+        <section class="preloader">
+            <h1 class="iniPreloaderh1">Selamat Datang</h1>
+        </section>
         
-    </section>
-
-    <section id="contact">
-        <div class="kontak" data-aos="fade-up" data-aos-duration="2000">
-            <h1>Contact Me</h1>
-            <div class="apk">
-                <a href="#"><img src="iniuntukumurm/img/kontak/whatsapp-logo-240.png" alt="WhatsApp"></a>
-                <a href="https://github.com/FiernazIngga"><img src="iniuntukumurm/img/kontak/github-logo-240.png" alt="GitHub"></a>
-                <a href="https://www.instagram.com/finz_pratama/profilecard/?igsh=NmVwNDk2OG1zYXRs"><img src="iniuntukumurm/img/kontak/instagram-logo-240.png" alt="Instagram"></a>
-                <a href="https://www.tiktok.com/@finz_pratama?_t=ZS-8sjRKjEPRZg&_r=1"><img src="iniuntukumurm/img/kontak/linkedin-square-logo-240.png" alt="LinkedIn"></a>
-                <a href="#"><img src="iniuntukumurm/img/kontak/tiktok-logo-240.png" alt="TikTok"></a>
-                <a href="#"><img src="iniuntukumurm/img/kontak/email.png" alt="Email"></a>
-            </div>            
-        </div>
+        <section id="home">
+            <div class="home-isi">
+                <div class="homeIsiHiasan">
+                    <div class="hiasanHome" data-aos="fade-up" data-aos-duration="2000"></div>
+                    <h1 class="nama" data-aos="fade-down" data-aos-duration="2000">Hi, I'm Fiernaz and I'm a</h1>
+                    <div class="isi">
+                        <h1 class="programmer" data-aos="fade-up" data-aos-duration="2000"><span class="hiasanHome2">Network</span> Engineer <br> And <span class="program">Programmer</span></h1>
+                    </div>
+                </div>
+                <a href="#about" class="scrollBawah">
+                    <div class="scroll"></div>
+                    <div class="scroll scroll2"></div>
+                </a>
+            </div>
+        </section>
+    
+        <section id="about">
+            <div class="gambar"></div>
+            <div class="isiAboutAtas">
+                <h1 class="about" data-aos="fade-right" data-aos-duration="2000">About</h1>
+            <div class="baris"></div>
+            <p class="isiAbout" data-aos="fade-left" data-aos-duration="2000">Hi, I'm Finz—a passionate programmer and network engineer. Currently, I'm a second-semester Informatics student at UPN Veteran Yogyakarta. I have experience in both front-end and back-end web development, constantly striving to expand my skills. Proudly hailing from Indonesia, I am eager to create and innovate in the tech world.</p>
+            </div>
+        </section>
+    
+        <section id="skill">
+            <div class="gambarSkill">
+                <div class="gambar1">
+                    <div class="mtcna" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="iniuntukumurm/img/serti_gambar/mtcna.png" alt="">
+                    </div>
+                    <div class="tulisanmtcna" data-aos="fade-left" data-aos-duration="2000">
+                        <h1>MikroTik Certified Network Associate</h1>
+                        <p>Sertifikasi yang diberikan oleh MikroTik, perusahaan yang dikenal dengan perangkat jaringan mereka, bertujuan untuk memastikan bahwa seseorang memiliki pemahaman dasar dan keterampilan dalam mengelola dan mengkonfigurasi jaringan menggunakan perangkat MikroTik.</p>
+                    </div>
+                </div>
+                <div class="garisskil"></div>
+                <div class="gambar2">
+                    <div class="tulisanmtcre" data-aos="fade-right" data-aos-duration="2000">
+                        <h1>MikroTik Certified Routing Engineer</h1>
+                        <p>Sertifikasi resmi dari MikroTik yang berfokus pada konfigurasi dan manajemen routing, terutama static routing, OSPF, VPN, dan load balancing.</p>
+                    </div>
+                    <div class="mtcre" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="iniuntukumurm/img/serti_gambar/mtcre.png" alt="">
+                    </div>
+                </div>
+                <div class="garisskil"></div>
+                <div class="gambar3">
+                    <div class="ojm" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="iniuntukumurm/img/serti_gambar/ojm.jpg" alt="">
+                    </div>
+                    <div class="tulisanojm" data-aos="fade-left" data-aos-duration="2000">
+                        <h1>Olimpiade Jaringan MikroTik</h1>
+                        <p>Olimpiade Jaringan Mikrotik adalah lomba tingkat nasional yang diselenggarakan oleh PT Citraweb Solusi Teknologi. Lomba ini mengundang siswa SMK dari jurusan Teknik Komputer dan Jaringan (TKJ) serta Sistem Informatika Jaringan dan Aplikasi (SIJA) untuk mengikuti berbagai tahap seleksi yang menguji pengetahuan dan keterampilan mereka di dunia jaringan.</p>
+                    </div>
+                </div>
+                <div class="garisskil"></div>
+                <div class="gambar4">
+                    <div class="tulisanlks" data-aos="fade-right" data-aos-duration="2000">
+                        <h1>Lomba Kompetensi Siswa</h1>
+                        <p>
+                            Lomba Kompetensi Siswa (LKS) Kelompok Teknologi Daerah Istimewa Yogyakarta (DIY) pada bidang IT Network Systems Administration tahun 2023 adalah sebuah kompetisi yang menguji keahlian siswa SMK dalam teknologi sistem administrasi server dan jaringan. Tujuan lomba ini adalah untuk mempromosikan potensi siswa SMK kepada dunia usaha/industri sebagai pengguna tamatan/lulusan.
+                        </p>
+                    </div>
+                    <div class="lks" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="iniuntukumurm/img/serti_gambar/lks.png" alt="">
+                    </div>
+                </div>
+                <div class="garisskil"></div>
+                <div class="gambar5">
+                    <div class="pkl" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="iniuntukumurm/img/serti_gambar/pkl.png" alt="">
+                    </div>
+                    <div class="tulisanpkl" data-aos="fade-left" data-aos-duration="2000">
+                        <h1>Praktek Kerja Lapangan</h1>
+                        <p>
+                            PT Gmedia adalah perusahaan penyedia layanan internet di Yogyakarta. Mereka menawarkan berbagai layanan teknologi informasi seperti akses internet, cloud computing, artificial intelligence, internet of things (IoT), software, dan aplikasi. Gmedia juga menyediakan layanan konsultasi IT dan solusi untuk kebutuhan bisnis.
+                        </p><br>
+                        <p>
+                            Gmedia menerima siswa Sekolah Menengah Kejuruan (SMK) untuk Praktik Kerja Lapangan (PKL). Program PKL ini berlangsung selama tiga bulan dan mencakup workshop, pembelajaran berbasis proyek, dan pengalaman lapangan, dengan tujuan memperdalam pengetahuan dan memberikan pengalaman praktis di dunia jaringan dan teknologi informasi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="skilBahasa">
+                <ul class="skilba">
+                    <li><img src="iniuntukumurm/img/imgBahasa/11.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/22.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/33.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/44.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/55.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/66.png" alt=""></li>
+                    <li><img src="iniuntukumurm/img/imgBahasa/77.png" alt=""></li>
+                </ul>
+            </div>
+            
+        </section>
+    
+        <section id="contact">
+            <div class="kontak" data-aos="fade-up" data-aos-duration="2000">
+                <h1>Contact Me</h1>
+                <div class="apk">
+                    <a href="#"><img src="iniuntukumurm/img/kontak/whatsapp-logo-240.png" alt="WhatsApp"></a>
+                    <a href="https://github.com/FiernazIngga"><img src="iniuntukumurm/img/kontak/github-logo-240.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/finz_pratama/profilecard/?igsh=NmVwNDk2OG1zYXRs"><img src="iniuntukumurm/img/kontak/instagram-logo-240.png" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@finz_pratama?_t=ZS-8sjRKjEPRZg&_r=1"><img src="iniuntukumurm/img/kontak/linkedin-square-logo-240.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="iniuntukumurm/img/kontak/tiktok-logo-240.png" alt="TikTok"></a>
+                    <a href="#"><img src="iniuntukumurm/img/kontak/email.png" alt="Email"></a>
+                </div>            
+            </div>
+        </section>
     </section>
     <script>
         const hamburger = document.querySelector('.hamburger-nav')
